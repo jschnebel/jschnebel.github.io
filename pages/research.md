@@ -1,3 +1,8 @@
+---
+title: Research
+permalink: /research/
+---
+
 # Research
 
 ## Preprints
@@ -6,6 +11,6 @@
 
 - D.R. Luke, J.C. Schnebel, M. Staudigl, J. Peypouquet, S. Qu, [*Asymptotic behaviour of coupled random dynamical systems with multiscale aspects*](https://arxiv.org/abs/2601.15411), arXiv:2601.15411, 2026.
 
-## Thesis
+## Master thesis
 
 - J. Schnebel, [*First Order Methods for Stochastic Optimal Control with an Application to Microgrid Optimization*](/assets/doc/Masterthesis_JohannesSchnebel.pdf), Mannheim University, 2025.
