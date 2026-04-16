@@ -44,7 +44,7 @@ Powered by Hydejack v9.2.1 <https://hydejack.com/>
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Research" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"Johannes-Carl Schnebel"},"dateModified":"2026-02-24T16:10:28+01:00","description":"PhD Candidate Mathematical Optimization","headline":"Research","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/img/myself_small.jpeg"},"name":"Johannes-Carl Schnebel"},"url":"http://localhost:4000/research/"}</script>
+{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"Johannes-Carl Schnebel"},"dateModified":"2026-03-06T12:58:51+01:00","description":"PhD Candidate Mathematical Optimization","headline":"Research","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/img/myself_small.jpeg"},"name":"Johannes-Carl Schnebel"},"url":"http://localhost:4000/research/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -115,7 +115,7 @@ Powered by Hydejack v9.2.1 <https://hydejack.com/>
   w._search = {
     DATA_URL: '/assets/sitedata.json?no-cache',
     STORAGE_KEY: 'mini-search/',
-    INDEX_KEY: 'index--2026-03-06T12:12:19+01:00',
+    INDEX_KEY: 'index--2026-04-15T11:29:34+02:00',
   };
   w._clapButton = true;
 }(window);</script>
@@ -259,21 +259,33 @@ html{--accent-color: rgb(79,177,186);--accent-color-faded: rgba(79, 177, 186, 0.
 
   <h1 id="research">Research</h1>
 
+<p>My research develops algorithms for optimization problems with hierarchical or game-theoretic structure. The common thread is that these problems involve multiple levels or multiple agents: a collection of agents reaches some form of equilibrium at a lower level, and a decision-maker at the upper level optimizes over the resulting equilibrium set. Classical examples include selecting the most efficient traffic equilibrium in a transport network, or choosing regularization parameters in inverse problems where the reconstruction itself solves a variational problem.</p>
+
+<p>The algorithmic challenge is that these problems combine large-scale stochastic structure (the operators are finite sums or expectations) with a nested feasibility constraint (the lower-level equilibrium). I work on extragradient and operator splitting methods that handle both, using variance reduction and Bregman geometry to get provable convergence rates.</p>
+
 <h2 id="preprints">Preprints</h2>
 
 <ul>
   <li>
     <p>P. Dvurechensky, A. Ebner, J.C. Schnebel, S. Shtern, M. Staudigl, <a href="https://arxiv.org/abs/2602.13510"><em>Stochastic variance reduced extragradient methods for solving hierarchical variational inequalities</em></a>, arXiv:2602.13510, 2026.</p>
+
+    <p>We study hierarchical variational inequalities where both the upper- and lower-level operators have a finite-sum structure. This setting covers equilibrium selection problems, bilevel optimization, and certain adversarial learning formulations. We develop stochastic extragradient methods with SVRG-type variance reduction in both Euclidean and Bregman setups, and establish the first convergence rates and complexity bounds for this problem class.</p>
   </li>
   <li>
     <p>D.R. Luke, J.C. Schnebel, M. Staudigl, J. Peypouquet, S. Qu, <a href="https://arxiv.org/abs/2601.15411"><em>Asymptotic behaviour of coupled random dynamical systems with multiscale aspects</em></a>, arXiv:2601.15411, 2026.</p>
+
+    <p>We analyze coupled dynamical systems that evolve on different time scales under stochastic perturbations. This framework captures algorithms that simultaneously regularize (via Tikhonov-type terms) and penalize (to enforce constraints), and provides a unified convergence theory. The results apply to constrained variational inequalities and bilevel problems where the constraint set is itself defined by an equilibrium condition.</p>
   </li>
 </ul>
 
 <h2 id="master-thesis">Master thesis</h2>
 
 <ul>
-  <li>J. Schnebel, <a href="/assets/doc/Masterthesis_JohannesSchnebel.pdf"><em>First Order Methods for Stochastic Optimal Control with an Application to Microgrid Optimization</em></a>, Mannheim University, 2025.</li>
+  <li>
+    <p>J. Schnebel, <a href="/assets/doc/Masterthesis_JohannesSchnebel.pdf"><em>First Order Methods for Stochastic Optimal Control with an Application to Microgrid Optimization</em></a>, Mannheim University, 2025.</p>
+
+    <p>The thesis develops and compares first-order optimization methods for multi-stage stochastic optimal control problems arising in microgrid energy management — deciding when to store, consume, or sell electricity under uncertain renewable generation and fluctuating prices.</p>
+  </li>
 </ul>
 
 </article>

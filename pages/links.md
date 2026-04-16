@@ -1,8 +1,8 @@
 ---
-title: Usefull Links
+title: Useful Links
 permalink: /links/
 ---
 
 # Useful Links
 
-*This page is currently a placeholder. Add your collection of useful links here.*
+*This page is currently a placeholder.*
