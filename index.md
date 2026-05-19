@@ -1,10 +1,10 @@
 ---
 layout: home
-title: Welcome to my personal website!
+title: Johannes Schnebel – PhD Candidate in Mathematical Optimization
 description: >
-  Welcome to the website of Johannes-Carl Schnebel
+  Personal website of Johannes Schnebel (Johannes-Carl Schnebel), PhD candidate in mathematical optimization at the University of Mannheim. Research in bilevel optimization, variational inequalities, and stochastic optimal control.
 hide_description: true
-sitemap: false
+sitemap: true
 ---
 I am a PhD candidate at the [chair in mathematical optimization](https://www.wim.uni-mannheim.de/staudigl/) w/ [Prof. Mathias Staudigl](mailto:mathias.staudigl@uni-mannheim.de).
 

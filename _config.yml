@@ -31,7 +31,15 @@ description:           >
 tagline:             PhD Candidate Mathematical Optimization
 
 # A list of keywords for your blog
-keywords:              []
+keywords:
+  - Johannes Schnebel
+  - Johannes-Carl Schnebel
+  - mathematical optimization
+  - bilevel optimization
+  - PhD candidate
+  - University of Mannheim
+  - variational inequalities
+  - stochastic optimal control
 
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
@@ -316,6 +324,7 @@ include:
   - _routes.json
   - .well-known
   - LICENSE.md
+  - robots.txt
 
 
 # Plugins
@@ -359,11 +368,10 @@ plugins:
 #   admins:              <id>
 
 # Used on index and about sites
-# social:
-#   name:                <firstname> <lastname>
-#   links:
-#     - https://twitter.com/<username>
-#     - https://github.com/<username>
+social:
+  name:                Johannes Schnebel
+  links:
+    - https://github.com/johannes97s
 
 
 # Plugin Configs

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://jschnebel.github.io/sitemap.xml
